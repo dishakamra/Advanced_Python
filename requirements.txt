@@ -1,0 +1,16 @@
+aiohttp
+cython
+lxml
+mypy
+numba
+paramiko
+psutil
+pylint
+pymongo
+pyqt5
+pytest
+pytest-mock
+python-dateutil
+python-magic-bin
+PyYAML
+requests
