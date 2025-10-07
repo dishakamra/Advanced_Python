@@ -3,7 +3,9 @@ Dict Comprehension
 
 Task: Build {word: word.upper()} for ["aws","bedrock","lambda"].
 '''
-
+words = ["aws","bedrock","lambda"]
+mapping = {w: w.upper() for w in words}
+print(mapping)
 
 
 '''
@@ -11,6 +13,9 @@ Set Comprehension
 
 Task: From ["apple","pear","plum","pear"], build a set of first letters.
 '''
+fruits = ["apple","pear","plum","pear"]
+first_letters = {f[0] for f in fruits}
+print(first_letters)
 
 
 
