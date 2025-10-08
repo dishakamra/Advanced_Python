@@ -21,7 +21,7 @@ class Temperature:
         return (self._celsius * 9 / 5) + 32
 
 
-t = Temperature(25)
+t = Temperature(-300)
 print("Celsius:", t.celsius)
 print("Fahrenheit:", t.fahrenheit)
 
