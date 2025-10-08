@@ -1,0 +1,1 @@
+# Write a Rectangle with width and height. Add an instance method area() that returns width * height
